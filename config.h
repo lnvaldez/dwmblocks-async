@@ -18,10 +18,9 @@
 
 // Define blocks for the status feed as X(icon, cmd, interval, signal).
 #define BLOCKS(X)             \
-    X("\ue033 ", "sb-battery", 60, 1) \
-    X("\ue0e0 ", "sb-volume", 0, 2) \
-    X("\ue225 ", "date '+%a, %b %d'", 0, 3) \
-    X("\ue018 ", "date '+%H:%M:%S'", 1, 4) \
-    X("", "sb-power", 0, 5) \
+    X("\ue0e0 ", "sb-volume", 0, 1) \
+    X("\ue225 ", "date '+%a, %b %d'", 0, 2) \
+    X("\ue018 ", "date '+%H:%M:%S'", 1, 3) \
+    X("", "sb-power", 0, 4) \
 
 #endif  // CONFIG_H
